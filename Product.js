@@ -22,6 +22,6 @@ let price=prompt("enter  price of the product")
 let prodObj= new Product(name,price)
 console.log("productObj",prodObj)
 productArray.push(prodObj)
-
+prodObj.setProductName()
 
 console.log("product array",productArray)
